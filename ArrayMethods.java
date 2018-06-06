@@ -2,21 +2,7 @@ import java.util.Random;
 
 public class ArrayMethods {
     public static void main(String[] args) {
-        int[] array = createArray(10, 10, 1);
-        printArray(array);
-        printArray(reverseArray(array));
-        int[] array1 = new int[] {1, 2, 4, 5, 5, 6};
-        int[] array2 = new int[] {6, 5, 4, 3, -4 };
-        System.out.println(findMax(array));
-        System.out.println(findMin(array));
-        System.out.println(getAvverage(array));
-        System.out.println(getGeometricMean(array));
-        System.out.println(isIncreasingSequance(array));
-        System.out.println(isIncreasingSequance(array1));
-        System.out.println(isDecreasingSequance(array));
-        System.out.println(isDecreasingSequance(array2));
-        System.out.println(getLocalMax(array));
-        System.out.println(getLocalMin(array));
+        
     }
 
     public static int findMax(int[] array) {
